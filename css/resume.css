@@ -11,6 +11,12 @@ body {
   }
 }
 
+@media (max-width:320px) {
+  .copyrights {
+    display: none;
+  }
+}
+
 h1,
 h2,
 h3,
