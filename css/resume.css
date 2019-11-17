@@ -24,17 +24,17 @@ h6 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   line-height: 5.5rem;
   color: rgb(136, 146, 176);
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.2rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 p.lead {
@@ -45,9 +45,15 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
-  color:rgb(100, 255, 218)
+  font-size: 1.2rem;
+  color:rgb(100, 255, 218);
 }
+.company {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color:rgb(100, 255, 218);
+} 
 
 .social-icons a {
   display: inline-block;
@@ -185,8 +191,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: rgb(8, 20, 37) !important;
-  box-shadow: 10px 0 5px -2px rgb(7, 15, 31);
+  background-color: rgb(11, 25, 46) !important;
+  box-shadow: 6px 0 6px -2px rgb(7, 15, 31);
 }
 
 .text-primary {
