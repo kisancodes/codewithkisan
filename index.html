@@ -11,7 +11,6 @@
 
   <!-- Bootstrap core CSS -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
@@ -23,7 +22,6 @@
 </head>
 
 <body id="page-top">
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Kisan Tamang</span>
@@ -34,38 +32,43 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
+    
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger tablinks" onclick="openTab(event,'about')" href="#about">About</a>
+          <a class="nav-link" role="tab" data-toggle="tab"
+							aria-controls="about" aria-selected="true" id="about-tab" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger tablinks" onclick="openTab(event,'experience')" href="#experience">Experience</a>
+          <a class="nav-link" role="tab" data-toggle="tab"
+																				 aria-controls="experience" aria-selected="false" href="#experience"
+							id="experience-tab">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger tablinks" onclick="openTab(event, 'education')" href="#education">Education</a>
+          <a class="nav-link" id="education-tab" role="tab" data-toggle="tab" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger tablinks" onclick="openTab(event,'skills')" href="#skills">Skills</a>
+          <a class="nav-link" id="skill-tab" role="tab" data-toggle="tab" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger tablinks" onclick="openTab(event,'interests')" href="#interests">Interests</a>
+          <a class="nav-link"  id="interest-tab" role="tab" data-toggle="tab"   href="#interests">Interests</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger tablinks" onclick="openTab(event,'blogs')"href="#blogs">Blogs</a>
+          <a class="nav-link" id="blog-tab" role="tab" data-toggle="tab" href="#blogs">Blogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger tablinks"
-						 onclick="openTab(event,'contact')" href="#contact">Contact</a>
+          <a class="nav-link" id="contact-tab" role="tab" data-toggle="tab" href="#contact">Contact</a>
         </li>
       </ul>
 
     </div>
   </nav>
 
-  <div class="container-fluid p-0 ml-6">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center tab-contents" id="about">
+  <div class="container-fluid p-0 ml-6">
+			<div class="tab-content" id="myTabContent">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center
+						 tab-pane fade show active" aria-labeledby="about-tab" role="tabpanel" id="about">
       <div class="w-100">
         <h1 class="mb-0">Kisan
           <span class="text-primary">Tamang</span>
@@ -96,10 +99,10 @@
         </div>
       </div>
     </section>
-
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center tab-contents" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center
+				tab-pane fade" aria-labeledby="experience-tab" role="tabpanel" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
 
@@ -120,7 +123,8 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center tab-contents" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center"
+				aria-labeledby="education-tab" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
@@ -219,7 +223,6 @@
           </li>
         </ul>
 
-
       </div>
     </section>
 
@@ -235,11 +238,10 @@
     </section>
 
     <hr class="m-0">
+    
+		<!--blogs -->
 
-
-    <!--blogs -->
-
-      <section class="resume-section p-3 p-lg-5 d-flex align-items-center tab-contents" id="blogs">
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="blogs">
       <div class="w-100">
         <h2 class="mb-5">Blogs</h2>
         <h4 class="mb-5"  style="color:#868e96">Linux, Web Development, Tech News, Tech talk and many more</h4>
@@ -272,7 +274,7 @@
 </div>
 </section>
 <hr>
-<section class="resume-section p-3 p-lg-5 d-flex align-items-center tab-contents" id="contact">
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
   <div class="w-75">
     <h2 class="mb-5">Contact</h2>
     <h4 class="mb-5"  style="color:#868e96"><i class="fa fa-map-marker" aria-hidden="true"></i> Boudha Kathmandu Nepal<br><br><i class="fa fa-envelope"></i>  kisan.codes@gmail.com <br><br><i class="fa fa-phone"></i> (+977) 980-381-1367</h4>
@@ -300,19 +302,14 @@
 <!-- Card -->
   </div>
 </section>
-
-
+	</div>
   </div>
+	</div>
   <!-- Bootstrap core JavaScript -->
   <script src="lib/jquery/jquery.min.js"></script>
+  <!-- Plugin JavaScript -->
+	<script src="lib/jquery-easing/jquery.easing.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="lib/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="index.js"></script>
-
 </body>
-
 </html>
