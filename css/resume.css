@@ -1,8 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 54px;
-  color: #fff;
-  background-color: rgb(10, 25, 47);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -165,7 +163,6 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
-  border-bottom: 2px solid rgb(100, 255, 218);
   margin:0px auto;
 }
 
@@ -192,11 +189,6 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: rgb(11, 25, 46) !important;
-  box-shadow: 6px 0 6px -2px rgb(7, 15, 31);
-}
-
-.text-primary {
-  color: #fff !important;
 }
 
 a {
@@ -208,4 +200,5 @@ a:focus,
 a:active {
   color: rgb(100, 255, 218);
 }
+
               
