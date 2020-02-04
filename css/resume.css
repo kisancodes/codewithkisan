@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 54px;
   -webkit-font-smoothing: antialiased;
+  color:#0a0a23;
 }
 
 @media (min-width: 992px) {
@@ -44,7 +45,6 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.2rem;
-  color:rgb(100, 255, 218);
 }
 .company {
   text-transform: uppercase;
