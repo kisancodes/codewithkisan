@@ -83,10 +83,10 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  color: rgb(136, 146, 176);
+  color: #fff;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -119,9 +119,8 @@ p.lead {
   }
 
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 9rem;
+    max-height: 9rem;
   }
 
   #sideNav .navbar-collapse {
@@ -190,15 +189,26 @@ section.resume-section .resume-item .resume-date {
 .bg-primary {
   background-color: #0a0a23 !important;
 }
-
-a {
-  color: #fff;
+.blog_title{
+  color:#0a0a23 !important;
 }
-
 a:hover,
 a:focus,
 a:active {
-  color: rgb(100, 255, 218);
+  color: #0a0a23;
+  text-decoration: underline;
 }
-
-              
+.load{
+  border:1px solid #0a0a23;
+  text-align: center;
+  padding:8px; 
+}
+.load:hover{
+  background: #0a0a23;
+  color:#fff;
+}
+.blog_content{
+  font-size:18px;
+  line-height: 1.8;
+  vertical-align: baseline;
+}        
