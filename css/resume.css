@@ -72,14 +72,11 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #495057;
+  transition: .5s;
 }
 
 .dev-icons {
   font-size: 3rem;
-}
-
-.dev-icons .list-inline-item i:hover {
-  color: rgb(100, 255, 218);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -155,8 +152,8 @@ p.lead {
 }
 
 #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  background:rgb(100, 255, 218);
-  color:#000;
+  color:#495057;
+  transition: .5s;
 }
 section.resume-section {
   padding-top: 5rem !important;
@@ -197,6 +194,7 @@ a:focus,
 a:active {
   color: #0a0a23;
   text-decoration: underline;
+  transition: .5s;
 }
 .load{
   border:1px solid #0a0a23;
@@ -206,6 +204,7 @@ a:active {
 .load:hover{
   background: #0a0a23;
   color:#fff;
+  transition: .5s;
 }
 .blog_content{
   font-size:18px;
