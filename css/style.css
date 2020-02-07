@@ -46,23 +46,17 @@ p.lead {
   font-weight: 500;
   font-size: 1.2rem;
 }
-.company {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 0.9rem;
-  color:rgb(100, 255, 218);
-} 
 
 .social-icons a {
   display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3.1rem;
+  width: 3.1rem;
   background-color: #1b1b32;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
+  font-size: 1.3rem;
+  line-height: 3rem;
   margin-right: 1rem;
 }
 
@@ -189,7 +183,7 @@ section.resume-section .resume-item .resume-date {
   color:#0a0a23 !important;
 }
 a{
-  color: #0a0a23 !important;
+  color: #0a0a23;
 }
 a:hover,
 a:focus,
@@ -203,13 +197,34 @@ a:active {
   text-align: center;
   padding:8px; 
 }
+
 .load:hover{
   background: #0a0a23;
   color:#fff;
   transition: .5s;
 }
+
 .blog_content{
   font-size:18px;
   line-height: 1.8;
   vertical-align: baseline;
+}
+
+.featured{
+  margin-top: 80px;
+}
+
+.nav_footer{
+  border-bottom: 1px solid #E3FFF1;
+}
+.nav_footer p{
+  color:#E3FFF1;
+  font-size:12px;
+  padding-bottom: 0;
+  margin:5px;
 }        
+@media (max-width: 640px){
+  .nav_footer{
+    display: none;
+  }
+}
