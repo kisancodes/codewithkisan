@@ -157,7 +157,6 @@ p.lead {
 }
 section.resume-section {
   padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
   max-width: 75rem;
   margin:0px auto;
 }
@@ -188,6 +187,9 @@ section.resume-section .resume-item .resume-date {
 }
 .blog_title{
   color:#0a0a23 !important;
+}
+a{
+  color: #0a0a23;
 }
 a:hover,
 a:focus,
