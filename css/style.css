@@ -195,7 +195,8 @@ a:active {
 .load{
   border:1px solid #0a0a23;
   text-align: center;
-  padding:8px; 
+  padding:8px;
+  margin-left: 10px; 
 }
 
 .load:hover{
