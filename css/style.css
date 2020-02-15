@@ -224,7 +224,7 @@ a:active {
   padding-bottom: 0;
   margin:5px;
 }        
-@media (max-width: 640px){
+@media (max-width: 600px){
   .nav_footer{
     display: none;
   }
